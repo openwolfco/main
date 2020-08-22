@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description></description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 22 Aug 2020 14:11:09 +0800</pubDate>
+    <lastBuildDate>Sat, 22 Aug 2020 14:11:09 +0800</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>COVID ASSIST - Why I Built an SMS Bot for COVID-19</title>
+        <description>&lt;p&gt;&lt;img class=&quot;featuredImg&quot; src=&quot;../../../../assets/images/COVIDASSIST.jpg&quot; /&gt;
+&lt;br /&gt;
+Chatbots are an effective means of information dissemination used by governments and companies all around the world. Almost always these applications depend on the internet. So what happens to those people who do not have decent access to the internet? The answer to this question is what lead me to build ‘COVID ASSIST’ - an SMS Bot to help spread information about COVID-19 to those with limited access to the internet.&lt;/p&gt;
+
+&lt;p&gt;‘Bots’ are an integral part of most websites these days. They are also commonly used in Facebook pages and Whatsapp chats to automate inquiries and follow up business leads. In terms of healthcare, these programs come in the form of telemedicine, research, and public health messaging.&lt;/p&gt;
+
+&lt;p&gt;Today there are several COVID-19 Apps and Bots used for - symptom checking, tracking, and general awareness. The WHO has COVID-19 bots on &lt;a class=&quot;citation&quot; onclick=&quot;toast('WHO launches a chatbot on Facebook Messenger to combat COVID-19 misinformation - 15 April 2020 - https://m.me/who')&quot;&gt;Facebook Messenger&lt;/a&gt; and &lt;a class=&quot;citation&quot; onclick=&quot;toast('WHO Health Alert brings COVID-19 facts to billions via WhatsApp - 6 May 2020 - http://wa.me/41798931892?text=hi')&quot;&gt;on Whatsapp&lt;/a&gt;. Department of Health (DOH) Philippines released the “&lt;a target=&quot;_blank&quot; href=&quot;https://www.doh.gov.ph/covid-19/chatbot&quot;&gt;Kontra COVID Bot&lt;/a&gt;” and University of Philippines (UP) launched their &lt;a class=&quot;citation&quot; onclick=&quot;toast('UP Resilience Institute introduces COVID chatbot - https://endcov.ph/')&quot;&gt;EndCovid Bot&lt;/a&gt; named ‘Yani’. Bots like the ones made by WHO has a potential to reach 4.2 billion people – helping people protect themselves from COVID-19, prevent its spread, and understand the facts related to the disease.&lt;/p&gt;
+
+&lt;p&gt;The one common factor in all these bots or apps is the internet. In the present world where Tiktok and Facebook have dominated our attention, there still exists a large part of our population that lives in the dark - in a world without the internet. Almost half of the world’s population (57.8 %) &lt;a class=&quot;citation&quot; onclick=&quot;toast('Broadband Commission, United Nations 2019')&quot;&gt; has no internet access&lt;/a&gt;. This is because the Internet has &lt;a class=&quot;citation&quot; onclick=&quot;toast('Guillen, M. F.; Suárez, S. L. (2005). Explaining the global digital divide: Economic, political and sociological drivers of cross-national internet use. Social Forces. 84 (2): 681–708.')&quot;&gt;developed unevenly&lt;/a&gt; throughout the world. Sociologists call this situation the ‘&lt;a href=&quot;https://en.wikipedia.org/wiki/Digital_divide&quot; target=&quot;_blank&quot;&gt;Digital Divide’&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img class=&quot;featuredImg&quot; src=&quot;../../../../assets/images/digitaldivide.jpg&quot; /&gt;
+&lt;figcaption&gt;Digital Divide - Two-thirds of the world’s mobiles are dumb phones, with limited or no internet access.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The concept of the “digital divide” points to the increasing gap between the disadvantaged members of society, especially the poor, rural, elderly, and the handicapped portion of the population who do not have access to smartphones or the internet; and the wealthy, middle-class, and young living in urban and suburban areas who not only have access to high-speed internet but also know how to properly benefit from the internet.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://www.wired.com/story/the-pandemic-is-forcing-everyone-to-face-the-digital-divide/&quot; target=&quot;_blank&quot;&gt;The Pandemic Is Forcing Everyone to Face the Digital Divide&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The Philippines outperforms several other Asian countries in terms of internet access. Close to &lt;a class=&quot;citation&quot; onclick=&quot;toast('DIGITAL 2020: THE PHILIPPINES - https://datareportal.com/reports/digital-2020-philippines')&quot;&gt;67% of Filipinos&lt;/a&gt; have access to the internet. Internet use here is also highly mobile. We commonly depend on affordable options like Free Facebook and mobile promos which, while cheap, has restrictions on basic internet. Also, adequate internet access to ‘apps’ requires a smartphone. Only &lt;a class=&quot;citation&quot; onclick=&quot;toast('Mobile Divides in Emerging Economies - Pew Research Center NOVEMBER 20, 2019')&quot;&gt;40-50% of the country&lt;/a&gt; own smartphones. The rest, while still has access to phones - use cheaper phones with keypads and small screens, limiting usage to phone calls and texts.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://cnnphilippines.com/life/culture/2020/5/20/internet-access-pandemic.html&quot; target=&quot;_blank&quot;&gt;As COVID-19 forces life to move online, who is left behind?&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;While there are brilliant initiatives from the Philippine Government for Internet Access, like the Republic Act 10929 - providing free internet access in public spaces, the fact is - we can do more. In fact, we can do more for less.&lt;/p&gt;
+
+&lt;p&gt;SMS - Text messaging, unlike the internet is not hindered by the digital divide. It has become an integral part of our lives, more so than the internet. &lt;a class=&quot;citation&quot; onclick=&quot;toast('Customer Engagement In The Philippines: The Texting Capital Of The World - May 16, 2019 - https://blog.wavecell.com/customer-engagement-philippines/')&quot;&gt;Filipinos prefer text messaging&lt;/a&gt; over phone calls as their preferred means of communication.&lt;/p&gt;
+
+&lt;p&gt;In addition to this, we have decades of research confirming the success of &lt;a class=&quot;citation&quot; onclick=&quot;toast('Déglise, Carole &amp;amp; Suggs, L. Suzanne &amp;amp; Odermatt, Peter. (2012). SMS for disease control in developing countries: A systematic review of mobile health applications. Journal of telemedicine and telecare. 18. 273-81. 10.1258/jtt.2012.110810. ')&quot;&gt;sms based health education&lt;/a&gt; messaging.  SMS has the potential to penetrate all classes of the society, yet is underutilized.&lt;/p&gt;
+
+&lt;p&gt;This is what prompted me about six months ago, to try and develop technology that can reduce the gap between socioeconomic divides. COVID ASSIST is one of the results of that effort, a proof of concept.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img class=&quot;featuredImg&quot; src=&quot;../../../../assets/images/raspberrypi.jpg&quot; /&gt;
+&lt;figcaption&gt;Raspberry Pi is small single-board computer. This along with a USB modem is the only hardware required to run COVID ASSIST.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;To build COVID ASSIST, I used a Raspberry Pi and an old USB modem for the hardware. The content for the SMS messages were directly translated from WHO Covid-19 chat bots. I coded a simple bash script to automate the responses, piped a few responses to Python and used Gammu, an SMS Daemon to manage the messaging. Including text messaging costs and the hardware, I roughly spent ₱4000 (80 USD) on the whole project.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img class=&quot;featuredImg&quot; src=&quot;../../../../assets/images/covid-assist-sms-bot.jpg&quot; /&gt;
+&lt;figcaption&gt;COVID ASSIST - A Filipino SMS Bot for COVID-19&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Commerical SMS Messaging suites and APIs provided usually by telecom operators or service providers, that can do the same thing I did, but of course far more efficiently, are still very expensive and outside the reach of local health care or regional public health organizations.&lt;/p&gt;
+
+&lt;p&gt;COVID-19 has forced us to depend extensivelty on technology, and for those without access to such internet based technology should not be left behind while we march ahead.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Aug 2020 18:18:00 +0800</pubDate>
+        <link>http://localhost:4000/covid/2020/08/21/covidassist-why-i-built-sms-bot-for-covid19.html</link>
+        <guid isPermaLink="true">http://localhost:4000/covid/2020/08/21/covidassist-why-i-built-sms-bot-for-covid19.html</guid>
+        
+        
+        <category>Covid</category>
+        
+      </item>
+    
+  </channel>
+</rss>
