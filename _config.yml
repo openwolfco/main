@@ -8,7 +8,7 @@ logo: false
 paginate: 15
 baseurl: ""
 domain_name: "https://openwolf.com"
-google_analytics: "UA-XXXXXXXX-X"
+google_analytics: "UA-121081752-7"
 plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
