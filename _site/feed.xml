@@ -5,9 +5,45 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 29 Aug 2020 11:39:01 +0800</pubDate>
-    <lastBuildDate>Sat, 29 Aug 2020 11:39:01 +0800</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2020 20:30:40 +0800</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2020 20:30:40 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>The Cebuano Mobile App For Tuberculosis Awareness</title>
+        <description>&lt;p&gt;&lt;img class=&quot;featuredImg&quot; src=&quot;../../../../assets/images/tuberculosis-cebuano-app.jpg&quot; /&gt;
+&lt;br /&gt;
+Tuberculosis (TB) is a dangerous respiratory disease which is very common in the Philippines. The Philippines has the 3rd highest TB prevalence rate in the world. Close to 1 million Filipinos have active TB and about 70 lives are lost per day due to this disease. Yet, TB is one of those diseases that we have good treatment options for. It’s curable. But why then is it still here?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stopping TB is difficult, partly because of who it affects: It tends to affect the poor and disenfranchised most.
+&lt;small&gt;Tom Frieden (Infectious Diseases specialist and Public Health Expert)&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Most developed nations worry little about TB, as this disease is known commonly as a ‘disease of the poor’. Poverty is an important &lt;a class=&quot;citation&quot; onclick=&quot;toast('Tuberculosis and Poverty: Why Are the Poor at Greater Risk in India? (2012) - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3501509/')&quot;&gt;risk factor for TB&lt;/a&gt;, and with poverty — lack of awareness about TB care becomes inevitable.&lt;/p&gt;
+
+&lt;p&gt;It was only in the early 90s that, together with the WHO, the National Tuberculosis Program (NTP) of the Philippines set up the first few TB-DOTS facilities. ‘DOTS’ or&lt;a class=&quot;citation&quot; onclick=&quot;toast('TB-DOTS in the Philippines: impact of decentralization and health sector reform, WHO 2007')&quot;&gt; Direct Observed Therapy Short-course is a decentralized local health unit&lt;/a&gt; specializing in tuberculosis care, monitoring, and reporting. The success of these small TB-DOTS centers had a tremendous impact on TB care. By 2000, the Philippines reported 100% DOTS coverage.&lt;/p&gt;
+
+&lt;p&gt;Yet I frequently came across the issue of a lack of awareness about TB-DOTS facilities in my region. This was especially concerning because services of TB-DOTS facilities are FREE. Regardless of your gender, race, or nationality, these centers offer free check-up (Gene Xpert) / Xray, free consultation with a specialist physician, free TB drugs, and monitoring.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img class=&quot;featuredImg&quot; src=&quot;../../../../assets/images/TB-DOTS-Mandaue-Official-Mobile-App.jpg&quot; /&gt;
+&lt;figcaption&gt;'TB Treatment &amp;amp; Advice' is now the official app for Mandaue City Health TB DOTS Office&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;b&gt;The app is available for free download on Google Play Store:&lt;br /&gt;&lt;span&gt;&lt;a style=&quot;color:darkgreen&quot; href=&quot;https://play.google.com/store/apps/details?id=com.tbdots.openwolf&quot; target=&quot;_blank&quot;&gt;https://play.google.com/store/apps/details?id=com.tbdots.openwolf&lt;/a&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The ‘TB Treatment &amp;amp; Advice’ app was created to improve awareness and the reach of TB-DOTS facilities in my region. The app was made in the local language (Cebuano / Bisaya) and explains in simple terms the process and all free facilities offered by one among the two major TB-DOTS centers in Cebu island - Mandaue City Health TB DOTS Center.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 13 Sep 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/tuberculosis/2020/09/13/Cebuano-Tuberculosis-Awareness-Mobile-App.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tuberculosis/2020/09/13/Cebuano-Tuberculosis-Awareness-Mobile-App.html</guid>
+        
+        
+        <category>Tuberculosis</category>
+        
+      </item>
     
       <item>
         <title>COVID ASSIST - Why I Built an SMS Bot for COVID-19</title>
