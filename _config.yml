@@ -13,6 +13,6 @@ plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url: ""
-author: "Farhan Afsal"
+author: "Dr Farhan Palathinkal"
 # Disqus config
 disqus-shortname: ""
