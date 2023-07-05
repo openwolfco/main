@@ -257,42 +257,6 @@ header .logo
     window.isMobile.any = window.isMobile.any || window.isMobile.apple.tablet;
   </script>
 
- <script>
-    (function() {
-
-      var classTypes = [ 'desktop', 'mobile', 'phone', 'tablet' ];
-
-      var addDeviceClasses = function(prefix, testObj) {
-        var curr, i;
-        for (i = 0; i < classTypes.length; i++) {
-          curr = classTypes[i];
-          if (testObj[curr]) {
-            document.body.classList.add(prefix + curr);
-          }
-        }
-      };
-
-      var params = window.globals.parseParams(),
-          isDevicePreview = params.devicepreview === '1',
-          isPhoneOverride = params.deviceType === 'phone' || (isDevicePreview && params.phone == '1'),
-          isTabletOverride = (params.deviceType === 'tablet' || isDevicePreview) && !isPhoneOverride,
-          isMobileOverride = isPhoneOverride || isTabletOverride;
-
-      var deviceView = {
-        desktop: !window.isMobile.any && !isMobileOverride,
-        mobile: window.isMobile.any || isMobileOverride,
-        phone: isPhoneOverride || (window.isMobile.phone && !isTabletOverride),
-        tablet: isTabletOverride || window.isMobile.tablet
-      };
-
-      window.globals.deviceView = deviceView;
-      window.isMobile.desktop = !window.isMobile.any;
-      window.isMobile.mobile = window.isMobile.any;
-
-      addDeviceClasses('view-', deviceView);
-
-    })();
-  </script>
 <body translate="no">
   <section class="showcase">
     <header>
@@ -303,7 +267,7 @@ header .logo
     <div class="text">
       <h2>OPENWOLF</h2> 
       <h3>LET'S SOCIALIZE HEALTHCARE</h3>
-      <p>Envision a future where healthcare transcends boundaries, empowering every individual with affordable and accessible technology. Through the power of socializing healthcare, we unite communities, breaking down barriers and ensuring no one is left behind. Together, we pave the path towards a healthier, more equitable world, where wellness is a fundamental right, and technology is the bridge that connects us all.</p>
+      <p>Envision a future where healthcare transcends boundaries, empowering every individual with affordable and accessible technology. </p>
       <a href="#" rel="nofollow" onclick="this.href='mailto:' + 'support' + '@' + 'openwolf.com'">Contact</a>
     </div>
     <ul class="social">
