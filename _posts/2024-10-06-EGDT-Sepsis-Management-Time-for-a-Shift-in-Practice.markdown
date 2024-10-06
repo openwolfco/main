@@ -9,7 +9,7 @@ categories: sepsis
 
 ## Introduction
 
-**Early Goal-Directed Therapy (EGDT)** was once the cornerstone of sepsis management following the landmark study by Rivers et al. in 2001. This protocol, which included early fluid resuscitation, blood pressure control, and oxygen delivery optimization, promised substantial mortality reduction in sepsis patients. However, subsequent trials such as **ProCESS**, **ARISE**, and **PROMISE** questioned the superiority of EGDT over usual care. In this article, I will argue in favor of a modified approach to sepsis management, which aligns with more recent evidence and provides a more flexible, patient-tailored treatment strategy.
+**Early Goal-Directed Therapy (EGDT)** was once the cornerstone of sepsis management following the landmark study by Rivers et al. in 2001. This protocol, which included early fluid resuscitation, blood pressure control, and oxygen delivery optimization, promised substantial mortality reduction in sepsis patients. However, subsequent trials such as **ProCESS**, **ARISE**, and **PROMISE** questioned the superiority of EGDT over usual care. This article advocates for a modified approach to sepsis management, which aligns with recent evidence and emphasizes a more flexible, patient-tailored treatment strategy.
 
 ## Background on EGDT
 
