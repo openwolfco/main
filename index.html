@@ -12,12 +12,23 @@ about: 'about.html'
     <a class="subscribe-button icon-feed" href="{{'contact' | relative_url }} ">Contact</a>
 </nav>
 
-<main id="content" class="content" role="main">
+<div class="container"> <!-- Added wrapper container for layout control -->
 
-{% for post in site.posts %}
-  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-  <p>{{ post.excerpt }}</p>
-{% endfor %}
+    <main id="content" class="content" role="main">
 
+        {% for post in site.posts %}
+            <article class="post">
+                <header class="post-header">
+                    <h2 class="post-title">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h2>
+                </header>
+                <section class="post-excerpt">
+                    {{ post.excerpt }}
+                </section>
+            </article>
+        {% endfor %}
 
-</main>
+    </main>
+
+</div> <!-- Closing the wrapper div -->
