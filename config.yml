@@ -1,18 +1,18 @@
 name: OPENWOLF
 description: ""
-meta_description: "Scalable, Practical & Affordable Solutions for Healthcare Applications in Public Health. OPENWOLF Healthcare Technology Consulting. "
+meta_description: "Scalable, Practical & Affordable Solutions for Healthcare Applications in Public Health. OPENWOLF Healthcare Technology Consulting."
 
 markdown: kramdown
 highlighter: rouge
 logo: false
-paginate: 15
+paginate: 5
 baseurl: ""
+url: "https://openwolf.com"
 domain_name: "https://openwolf.com"
 google_analytics: "UA-121081752-7"
 plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url: ""
 author: "Dr Farhan Palathinkal"
 # Disqus config
 disqus-shortname: ""
