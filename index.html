@@ -5,27 +5,21 @@ cover: false
 about: 'about.html'
 ---
 
-
-    <nav class="main-nav overlay clearfix">
-
-                <a class="blog-logo" href="https://openwolf.com">
-                    <img src="{{ site.baseurl }}/assets/images/profile.png" alt="OPENWOLF" />
-                </a>
-
-        <a class="subscribe-button icon-feed" href="{{'contact' | relative_url }} ">Contact</a>
-    </nav>
-
-
+<nav class="main-nav overlay clearfix">
+    <a class="blog-logo" href="https://openwolf.com">
+        <img src="{{ site.baseurl }}/assets/images/profile.png" alt="OPENWOLF" />
+    </a>
+    <a class="subscribe-button icon-feed" href="{{'contact' | relative_url }} ">Contact</a>
+</nav>
 
 <main id="content" class="content" role="main">
-
 
     <div class="extra-pagination inner">
         {% include pagination.html %}
     </div>
 
+    {% if paginator %}
     {% for post in paginator.posts %}
-
     <article class="post">
         <header class="post-header">
             <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
@@ -46,8 +40,8 @@ about: 'about.html'
             </time> 
         </footer>
     </article>
-
     {% endfor %}
+    {% endif %}
 
     {% include pagination.html %}
 
