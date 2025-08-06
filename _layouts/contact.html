@@ -3,52 +3,7 @@ layout: default
 post_class: post-template page-template
 ---
 
-<!-- <nav class="main-nav clearfix">
-    <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
-    <a class="subscribe-button icon-feed" href="{{ 'feed.xml' | relative_url}}">Subscribe</a>
-</nav> -->
 
-<header class="main-header post-head {% if page.cover %}"
-    style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-    <nav class="main-nav {% if page.cover %} overlay {% endif %} clearfix">
-        <a class="back-button icon-arrow-left" href="{{'/' | relative_url }}">Home</a>
-        <a class="subscribe-button icon-feed" href="{{'contact' | relative_url }} ">Contact</a>
-    </nav>
-</header>
-
-<main class="content" role="main">
-    <article class="post">
-
-        <h1 class="post-title">{{ page.title }}</h1>
-
-        <section class="post-content">
-           <section class="contact-form-section mb-5">
-            <div class="container" align="center" style="text-align:center">
-                <form action="https://formspree.io/f/xannaedy" class="contact-form p-5 col-lg-9 mx-lg-auto theme-bg-light shadow" id="contact-form" method="post" name="contact-form">
-                    <h5 class="text-center">Kindly provide your message and email below.</h5>
-<br>
-                    <div class="form-row">
-  
-                        <div class="form-group col-md-6">
-                            <label class="sr-only" for="cemail">Email</label> <input class="form-control" id="cemail" name="_replyto" placeholder="Email" required="" type="email">
-                        </div><br>
-                         <div class="form-group col-md-6">
-                         <label>
-    Message:
-    <textarea name="message"></textarea>
-  </label>
-                         </div>
-                        <div class="form-group col-12">
-                            <button class="btn btn-block btn-success py-2" id="my-form-button" type="submit">Submit</button>
-                        </div>
-                    </div>
-                    <p style="color: green; font-weight:900 " id="my-form-status"></p>
-                </form>
-            </div>
-</section>
-        </section>
-
-    </article>
 
 </main>
 
