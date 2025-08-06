@@ -3,4 +3,4 @@ layout: page
 title: About me 
 ---
 
-Dr. Farhan Palathinkal Afsal is an intensive care physician and healthcare technology researcher.
+Dr. Farhan Palathinkal is an intensive care physician and healthcare technology researcher.
